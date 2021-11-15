@@ -52,6 +52,9 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+.header-logo-studio {
+    color: var(--logo-color-studio);
+}
 
 .header-link {
     font-weight: 500;
@@ -231,4 +234,8 @@ color: var(--team-positiontext-color)
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--acent-color)
+}
+
+.footer-logo-studio {
+    color: var(--logofooter-color-studio);
 }
