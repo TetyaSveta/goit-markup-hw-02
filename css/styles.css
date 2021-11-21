@@ -6,11 +6,7 @@
     --logo-color-studio: #000000;
     --acent-color: #2196F3;
     --btn-color: #2196F3;
-    --btn-text-color: #ffffff;
     --nav-text-color: #212121;
-    --header-contacts-text-color: #757575;
-    --team-positiontext-color: #757575;
-    --logofooter-color-studio: #ffffff;
     --footer-emailtel-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -74,7 +70,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-contacts-text-color)
+    color: var(--main-text-color)
 }
 
 .header-email-link:hover {
@@ -86,7 +82,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-contacts-text-color)
+    color: var(--main-text-color)
 }
 .header-tel-link:hover {
     color: var(--acent-color)
@@ -116,7 +112,12 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--btn-text-color)
+    color: var(--main-title-color);
+
+    cursor: pointer;
+}
+.hero-btn:hover {
+    color: var(--second-title-color);
 }
 .hero-btn:focus {
     background-color: var(--btn-color);
@@ -172,11 +173,11 @@ body {
 
 .team-item-text {
     font-weight: normal;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--team-positiontext-color)
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
 }
 
 /* --------FOOTER----------- */
@@ -220,7 +221,6 @@ color: var(--team-positiontext-color)
     color: var(--footer-emailtel-color);
 }
 
-
 .footer-link:hover, 
 .footer-link:focus {
     color: var(--acent-color)
@@ -237,5 +237,44 @@ color: var(--team-positiontext-color)
 }
 
 .footer-logo-studio {
-    color: var(--logofooter-color-studio);
+    color: var(--second-title-color);
+}
+
+/* --------Filter----------- */
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: var(--second-title-color);
+}
+.filter-btn:focus {
+    background-color: var(--btn-color);
+}
+
+/* --------Portfolio----------- */
+
+.portfolio-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.2;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+
+.portfolio-item-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
 }
