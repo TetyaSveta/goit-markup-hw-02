@@ -112,15 +112,10 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--main-title-color);
+    color: var(--second-title-color);
+    background-color: var(--acent-color);
 
     cursor: pointer;
-}
-.hero-btn:hover {
-    color: var(--second-title-color);
-}
-.hero-btn:focus {
-    background-color: var(--btn-color);
 }
     
 /* --------ABOUT----------- */
@@ -254,11 +249,10 @@ body {
     cursor: pointer;
 }
 
-.filter-btn:hover {
-    color: var(--second-title-color);
-}
+.filter-btn:hover,
 .filter-btn:focus {
-    background-color: var(--btn-color);
+    color: var(--second-title-color);
+    background-color: var(--acent-color);
 }
 
 /* --------Portfolio----------- */
